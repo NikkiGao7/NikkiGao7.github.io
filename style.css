@@ -1,0 +1,84 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+#zong {
+  background-color: #a5faf1;
+}
+
+#zongh {
+  font-family: "Courier New";
+}
+
+#symptoms {
+  border: 5px solid #555;
+}
+
+#webpage1 {
+  background-color:#bfd9bf;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+#home {
+  background-color: #ffe4c2;
+}
+
+
+#Nikki {background-color: #bdaf95;}
+#Nikkii {background-color: #cacce8;}
+#nikki {background-color: #b8cfb4;}
+#nikki {border-style: outset;}
+#h1 {text-align: center }
+#h1 {text-shadow: 2px 2px 5px #ffffff}
+#p1 {text-align: center }
+#p2 {text-align: center }
+#h2 {text-align: center }
